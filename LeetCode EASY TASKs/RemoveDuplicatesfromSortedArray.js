@@ -42,6 +42,7 @@ var removeDuplicates = function (nums) {
       k++;
     }
   }
+  console.log(nums, k); 
   return k;
 };
 
