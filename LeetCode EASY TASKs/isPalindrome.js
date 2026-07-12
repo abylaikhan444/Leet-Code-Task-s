@@ -1,5 +1,9 @@
 function isPalindrome(str) {
-  str = str.toString().toUpperCase();
+  // if (typeof str !== "String") {
+  //   return false;
+  // }
+
+  str = str.toString().toLowerCase();
 
   let left = 0;
   let right = str.length - 1;
